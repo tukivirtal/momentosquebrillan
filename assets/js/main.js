@@ -326,7 +326,9 @@
         await navigator.clipboard.writeText(textoLista(parseInt(control.value, 10)));
         aviso.textContent = "Lista copiada. Pegala donde quieras.";
       } catch {
-        aviso.textContent = "No se pudo copiar. Seleccioná la lista y copiala a mano.";
+        // sin permiso de portapapeles: dejamos la lista seleccionada para copiarla a mano
+        window.getSelection()?.selectAllChildren($(".cantidades", raiz));
+        aviso.textContent = "No se pudo copiar automáticamente. La lista quedó seleccionada: copiala desde el menú del navegador.";
       }
     });
     actualizar(BASE);

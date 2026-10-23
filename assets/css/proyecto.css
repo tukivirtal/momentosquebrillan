@@ -196,7 +196,7 @@
 
 .toc {
   position: sticky;
-  top: var(--header-h);
+  top: calc(var(--header-h) + env(safe-area-inset-top, 0px));
   z-index: 20;
   margin-inline: calc(-1 * var(--gutter));
   padding: 0.6rem var(--gutter);
@@ -257,7 +257,7 @@
   }
 
   .toc {
-    top: calc(var(--header-h) + 2rem);
+    top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + 2rem);
     align-self: start;
     margin: 0;
     padding: 0;
@@ -1433,7 +1433,7 @@
 
   .etiqueta-foto {
     position: sticky;
-    top: calc(var(--header-h) + 2rem);
+    top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + 2rem);
   }
 }
 
