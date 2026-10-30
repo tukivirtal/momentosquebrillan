@@ -19,20 +19,19 @@ npx serve .
 
 ## Cargar los datos de contacto
 
-El documento del proyecto no trae teléfono ni redes, así que por ahora el sitio no muestra datos de contacto. Para agregarlos, editá `assets/js/config.js`:
+El documento del proyecto no trae teléfono ni redes. Por ahora el sitio muestra solo un correo de ejemplo en el pie de página: `momentosquebrillan@gmail.com`. Antes de publicar el sitio, creen esa cuenta o cámbienla por un correo real; si no, los mensajes se pierden o le llegan a otra persona.
+
+Los datos se editan en `assets/js/config.js`:
 
 ```js
 window.MB_CONTACTO = {
   whatsapp: "59899123456", // solo números, con código de país
   instagram: "momentosquebrillan", // sin @
-  email: "hola@ejemplo.com"
+  email: "momentosquebrillan@gmail.com"
 };
 ```
 
-Los campos vacíos no se muestran. Con un WhatsApp cargado aparecen:
-
-- El bloque de contacto en el pie de página.
-- El botón "Consultar por WhatsApp" en el Menú Estándar, que manda la lista de cantidades ya armada.
+Los campos vacíos no se muestran. Lo que se cargue aparece en el bloque "Contacto" del pie de página. Con un WhatsApp cargado aparece además el botón "Consultar por WhatsApp" en el Menú Estándar, que manda la lista de cantidades ya armada.
 
 ## Publicarlo con GitHub Pages
 

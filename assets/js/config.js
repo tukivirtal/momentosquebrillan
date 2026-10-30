@@ -4,5 +4,5 @@
 window.MB_CONTACTO = {
   whatsapp: "", // solo números, con código de país. Ej.: "59899123456"
   instagram: "", // usuario sin @. Ej.: "momentosquebrillan"
-  email: "" // Ej.: "hola@momentosquebrillan.com.uy"
+  email: "momentosquebrillan@gmail.com"
 };

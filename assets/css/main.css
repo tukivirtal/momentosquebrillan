@@ -1798,7 +1798,8 @@ section[id] {
   gap: 2rem;
 }
 
-.footer__cols h2 {
+.footer__cols h2,
+.footer__contacto h2 {
   font-family: var(--f-text);
   font-size: var(--t-sm);
   font-weight: 700;
@@ -1807,19 +1808,27 @@ section[id] {
   margin-bottom: 0.85rem;
 }
 
-.footer__cols ul {
+.footer__cols ul,
+.footer__contacto ul {
   list-style: none;
   display: grid;
   gap: 0.45rem;
 }
 
-.footer__cols a {
+.footer__cols a,
+.footer__contacto a {
   text-decoration: none;
   color: rgba(255, 246, 236, 0.88);
+  overflow-wrap: anywhere;
 }
 
-.footer__cols a:hover {
+.footer__cols a:hover,
+.footer__contacto a:hover {
   text-decoration: underline;
+}
+
+.footer__contacto {
+  margin-top: 0.5rem;
 }
 
 .footer__cols p {
