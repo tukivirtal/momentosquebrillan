@@ -79,5 +79,5 @@ favicon.ico, icon-*.png, apple-touch-icon.png, site.webmanifest
 
 ## Datos para revisar en el documento
 
-- **Etiqueta de los escones**: indica 1128 mg de sodio por porción de 40 g (56 % VD), que es muy alto para ese producto. Conviene confirmar si el valor correcto es 112,8 mg.
+- **Etiqueta de los scones**: indica 1128 mg de sodio por porción de 40 g (56 % VD), que es muy alto para ese producto. Conviene confirmar si el valor correcto es 112,8 mg.
 - **Fichas técnicas**: algunas cantidades figuran como "0,060 cc" o "0,170 cc". En el sitio se interpretaron como 60 cc y 170 cc.
